@@ -34,13 +34,14 @@ namespace Hokemon
 		}
 		public void provided_name()
 		{
-			Console.WriteLine("enter a name for a Hokemon");	
+			Console.WriteLine("enter a name for a Hokemon");
+			Console.ReadLine();
 
 		}
 
 		public void details()
 		{
-			Console.WriteLine("Name: {0}\nHealth: {1}/{2}\n Defence: {3}\n Speed: {4}",Name,Health,max_health,defence,speed);
+			Console.WriteLine("Name: {0}\nHealth: {1}/{2}\n Max Health: {3}\n Defence: {4}\n Speed: {5}",Name,Health,max_health,defence,speed);
 
 		}
 

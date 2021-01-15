@@ -21,6 +21,10 @@ namespace Hokemon
 
             Battle_Arena firstArena = new Battle_Arena(); // creating the first Object Battle Arena 
 
+            firstArena.RequestAChallanger(HokeObject01);
+
+            firstArena.AcceptingTheBattle(HokeObject01, HokeObject02);
+
         }
     }
 }
