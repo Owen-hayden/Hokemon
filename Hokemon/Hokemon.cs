@@ -40,7 +40,7 @@ namespace Hokemon
 
 		public void details()
 		{
-			Console.WriteLine("Name: {0}\nHealth: {1]/{}2\n",Name,Health,max_health);
+			Console.WriteLine("Name: {0}\nHealth: {1]/{}2\n Defence: {3}\n Speed: {4}S",Name,Health,max_health,defence,speed);
 
 		}
 

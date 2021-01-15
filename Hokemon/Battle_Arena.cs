@@ -12,9 +12,9 @@ namespace Hokemon
 
             Console.WriteLine("***Welcome to the Battle Arena***")
         }
-        public void RequestAChallanger(hokemon contender);
+        public void RequestAChallanger(hokemon contender)
         {
-         Console.Writeline("{0}: says 'I want to battle...Anyone ready?", contender.name);
+         Console.WriteLine("{0}: says 'I want to battle...Anyone ready?", contender.Name);
         }
 
     }   
