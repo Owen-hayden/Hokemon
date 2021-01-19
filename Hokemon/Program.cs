@@ -12,16 +12,16 @@ namespace Hokemon
 
             HokeObject01.details();
 
-            System.Threading.Thread.Sleep(1000); // sleep for 1 second 
+            System.Threading.Thread.Sleep(1000); // Sleep for 1 second.
 
-            hokemon HokeObject02 = new hokemon();
+            hokemon HokeObject02 = new hokemon(); // New HokeObject.
 
-            HokeObject02.details();
+            HokeObject02.details(); // HokeObject02 details/stats.
 
             HokeObject01.about();
             HokeObject02.about();
 
-            Halor halorhoke01 = new Halor();
+            Halor halorhoke01 = new Halor(); // New Halor Hoke.
             halorhoke01.details();
 
 
