@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hokemon
 {
-    class Battle_Arena
+    class Battle_Arena // The battle arean structure for the Hokemon.
     {
 
         public Battle_Arena() // CONSTRUCTOR meathord - same as Class

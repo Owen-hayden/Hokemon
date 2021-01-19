@@ -2,7 +2,7 @@
 
 namespace Hokemon
 {
-	class hokemon
+	class hokemon // Hokemon class, call upon for the different stats for Hokemon.
 	{
 		private string name;
 		private int health;
@@ -44,7 +44,7 @@ namespace Hokemon
 
 		public void details()
 		{
-			Console.WriteLine("Name: {0}\n Health: {1}/{2}\n Defence: {3}\n Speed: {4}",name,Health,max_health,defence,speed);
+			Console.WriteLine("Name: {0}\n Health: {1}/{2}\n Defence: {3}\n Speed: {4}", name, Health, max_health, defence, speed);
 
 		}
 
@@ -58,11 +58,11 @@ namespace Hokemon
 			randomValue = rnd.Next(min_value, max_value);
 
 			return randomValue;
-	}	}
-
-		public void About()
-		{
-		Console.WriteLine("I am a mystical creature known as a Hokemon");
 		}
-	
+
+		public void about() // Original for the POLYMORPHISM.
+		{
+			Console.WriteLine("I am a mystical creature known as a Hokemon");
+		}
+	}
 }

@@ -2,7 +2,7 @@
 
 namespace Hokemon
 {
-    class Program
+    class Program // Main program for the running of the Hokemon. 
     {
         static void Main(string[] args)
         {
@@ -18,11 +18,11 @@ namespace Hokemon
 
             HokeObject02.details();
 
-            HokeObject01.About();
-            HokeObject02.About();
+            HokeObject01.about();
+            HokeObject02.about();
 
             Halor halorhoke01 = new Halor();
-            halorhoke01.details;
+            halorhoke01.details();
 
 
             hokemon hokeobject03 = new hokemon();
