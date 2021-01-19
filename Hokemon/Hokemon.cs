@@ -34,14 +34,17 @@ namespace Hokemon
 		}
 		public void provided_name()
 		{
-			Console.WriteLine("enter a name for a Hokemon");
-			Console.ReadLine();
+			string userName;
+
+			Console.WriteLine("Please enter your name: ");
+			userName = Console.ReadLine();
+			Console.WriteLine(userName);
 
 		}
 
 		public void details()
 		{
-			Console.WriteLine("Name: {0}\nHealth: {1}/{2}\n Max Health: {3}\n Defence: {4}\n Speed: {5}",Name,Health,max_health,defence,speed);
+			Console.WriteLine("Name: {0}\n Health: {1}/{2}\n Defence: {3}\n Speed: {4}",name,Health,max_health,defence,speed);
 
 		}
 
@@ -56,4 +59,10 @@ namespace Hokemon
 
 			return randomValue;
 	}	}
+
+		public void About()
+		{
+		Console.WriteLine("I am a mystical creature known as a Hokemon");
+		}
+	
 }

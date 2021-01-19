@@ -18,6 +18,19 @@ namespace Hokemon
 
             HokeObject02.details();
 
+            HokeObject01.About();
+            HokeObject02.About();
+
+            Halor halorhoke01 = new Halor();
+            halorhoke01.details;
+
+
+            hokemon hokeobject03 = new hokemon();
+
+            Halor halorhoke02 = new Halor();
+
+            hokeobject03.about();
+            halorhoke02.about();
 
             Battle_Arena firstArena = new Battle_Arena(); // creating the first Object Battle Arena 
 
