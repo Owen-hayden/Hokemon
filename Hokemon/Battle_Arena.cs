@@ -25,6 +25,9 @@ namespace Hokemon
 
         public void Battle(hokemon Attacker, hokemon Defender) // Health and attack in the fight 
         {
+
+            hokemon tempHoke; // Declaring a temporary Hokemon to switch attacker and defender
+
             while (Convert.ToInt32(Attacker.Health) >= 0 || Convert.ToInt32(Defender.Health) >= 0)
             {
                 for (int i = 0; i < 2; i++)

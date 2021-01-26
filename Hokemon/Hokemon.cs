@@ -34,17 +34,17 @@ namespace Hokemon
 		}
 		public void provided_name()
 		{
-			string userName;
+			
 
 			Console.WriteLine("Please enter your name: ");
-			userName = Console.ReadLine();
-			Console.WriteLine(userName);
+			Name = Console.ReadLine();
+			//Console.WriteLine(userName);
 
 		}
 
 		public void details()
 		{
-			Console.WriteLine("Name: {0}\n Health: {1}/{2}\n Defence: {3}\n Speed: {4}", name, Health, max_health, defence, speed);
+			Console.WriteLine("Name: {0}\n Health: {1}/{2}\n Defence: {3}\n Speed: {4}", Name, Health, max_health, defence, speed);
 
 		}
 
