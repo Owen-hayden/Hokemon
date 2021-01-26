@@ -4,7 +4,7 @@ namespace Hokemon
 {
     class Program // Main program for the running of the Hokemon. 
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // New hokemon 
         {
             Console.WriteLine("Hello welcome to the world of Hokemon");
 

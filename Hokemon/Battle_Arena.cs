@@ -20,10 +20,10 @@ namespace Hokemon
         {
             Console.WriteLine("{0}: 'I accept the challange to fight {1}' ", contender02.Name, contender01.Name);
             System.Threading.Thread.Sleep(1000);
-            Console.WriteLine("{1}: 'Great lets start the battle!!! {0}' ", contender02.Name, contender01.Name);
+            Console.WriteLine("{1}: 'Great lets start the battle!!! {0}' ", contender02.Name, contender01.Name); // Names and challanges 
         }
 
-        public void Battle(hokemon Attacker, hokemon Defender)
+        public void Battle(hokemon Attacker, hokemon Defender) // Health and attack in the fight 
         {
             while (Convert.ToInt32(Attacker.Health) >= 0 || Convert.ToInt32(Defender.Health) >= 0)
             {
@@ -53,7 +53,7 @@ namespace Hokemon
                 }
             }
 
-            Console.WriteLine("\n****\nSwitch turns: Deffender becomes Attacker...\n****\n");
+            Console.WriteLine("\n****\nSwitch turns: Deffender becomes Attacker...\n****\n"); // switching sides 
             tempHoke = Attacker;
             Attacker = Defender;
             Defender = tempHoke;
