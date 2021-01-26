@@ -46,7 +46,9 @@ namespace Hokemon
 
                     Defender.Health = (Defender.Health + defenceValue) - attackValue;
 
-
+                    Console.WriteLine("!!!Change in Battle!!!");
+                    System.Threading.Thread.Sleep(1000);
+                    
 
                 }
             }
